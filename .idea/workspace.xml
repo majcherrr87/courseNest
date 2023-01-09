@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d373f29d-bb8c-4d1d-a3eb-9899007765bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/migration/datasource.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/ormconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/basket/basket.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/shop/shop-item.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/shop/shop.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/dto/create-fox.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/fox/fox.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/fox/fox.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/interface/user-data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/utils/sleep.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/basket/basket.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/basket/basket.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/basket/basket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/basket/basket.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/basket/dto/add-product.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/basket/dto/add-product.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/interfaces/shop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/interfaces/shop.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/shop/shop.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/shop/shop.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/shop/shop.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/shop/shop.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/Adrian/Mega Kurs/courseNest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "Z:\\Adrian\\Mega Kurs\\courseNest\\shop\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/Mega Kurs/courseNest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;Z:\\Adrian\\Mega Kurs\\courseNest\\shop\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\Adrian\Mega Kurs\courseNest\project\src\fox" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.start:dev">
+    <configuration name="start:dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/shop/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/project/package.json" />
       <command value="run" />
@@ -82,11 +84,31 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/projekt1/package.json" />
+    <configuration name="typeorm:migration:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/shop/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="typeorm:migration:generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="typeorm:migration:revert" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/shop/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="typeorm:migration:revert" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="typeorm:migration:run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/shop/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="typeorm:migration:run" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -94,8 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start:dev (1)" />
+        <item itemvalue="npm.typeorm:migration:revert" />
+        <item itemvalue="npm.typeorm:migration:run" />
+        <item itemvalue="npm.typeorm:migration:generate" />
         <item itemvalue="npm.start:dev" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +137,8 @@
       <workItem from="1670495613366" duration="547000" />
       <workItem from="1670497256869" duration="815000" />
       <workItem from="1671576548503" duration="45000" />
-      <workItem from="1672844055042" duration="14074000" />
+      <workItem from="1672844055042" duration="22793000" />
+      <workItem from="1673264509375" duration="17246000" />
     </task>
     <task id="LOCAL-00001" summary="inisial NestJS">
       <created>1669827341545</created>
@@ -156,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670497865895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish shop">
+      <created>1672924909299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672924909300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +201,7 @@
     <MESSAGE value="controllers" />
     <MESSAGE value="new start" />
     <MESSAGE value="fix git" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix git" />
+    <MESSAGE value="finish shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish shop" />
   </component>
 </project>
